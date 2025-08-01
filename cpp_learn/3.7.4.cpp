@@ -1,4 +1,4 @@
-#include <iostream>
+##include <iostream>
 
 using namespace std;
 
@@ -16,4 +16,5 @@ int main()
     minutes=(seconds-hours*3600-days*86400)/60;
     seconds_left=seconds-hours*3600-minutes*60-days*86400;
     cout<<seconds<<"秒="<<days<<"天"<<hours<<"小时"<<minutes<<"分钟"<<seconds_left<<"秒"<<endl;
+    return 0;
 }
